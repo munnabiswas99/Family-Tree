@@ -3,12 +3,12 @@ import Munna from './Munna';
 import Fahad from './Fahad';
 import Fatema from './Fatema';
 
-const Abbu = () => {
+const Abbu = ({asset}) => {
     return (
         <div>
             <h3>Abbu</h3>
             <section className='flex'>
-                <Munna></Munna>
+                <Munna asset={asset}></Munna>
                 <Fatema></Fatema>
                 <Fahad></Fahad>
             </section>

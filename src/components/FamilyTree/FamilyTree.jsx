@@ -3,9 +3,10 @@ import Dadu from './Dadu';
 import './FamilyTree.css'
 
 const FamilyTree = () => {
+    const asset = 'Diamond';
     return (
         <div className='family_tree'>
-            <Dadu></Dadu>
+            <Dadu asset={asset}></Dadu>
         </div>
     );
 };
